@@ -4,78 +4,102 @@
     ViewData["Title"] = "Апогей, 1С решения";
 }
 
-<header>
-</header>
-
 <main>
-    <section id="hero">
-        <div>
-            <h1>Лидер среди обслуживающих организаций 1С для госучреждений</h1>
-        </div>
+    <section id="hero" class="mb-12 md:mb-16  text-center max-w-4xl mx-auto px-4">
+        <h1 class="text-3xl md:text-4xl font-bold leading-relaxed">Надежный <span class="text-red-600">лидер</span> среди обслуживающих организаций 1С для госучреждений</h1>
     </section>
-    <div class="container">
-        <section id="helo">
-            <div>
-                <h2>Знаем ответ на любой ваш вопрос</h2>
-                <p>
-                    Существуя уже более 15 лет на рынке, наша компания оперативно помогает бухгалтерам со всей России. Только за 2024 год наши специалисты решили более 500 тысяч
-                    задач, среди которых:
-                </p>
-                <ul>
-                    <li>Настройка и доработка 1С:Бухгалтерии для госучреждений и других конфигураций</li>
-                    <li>Автоматизация рутинных процессов и отчетности</li>
-                    <li>Интеграция 1С с другими системами ведения бух. учета</li>
-                    <li>Исправление учетных ошибок и аудит баз данных</li>
-                </ul>
-                <p>
-                    Именно неоценимый вклад в каждого клиента позволил нам закрепиться на 1 месте среди обслуживающий госучреждения компаний,
-                    а наличие 6 филиалов, охватывающих все часовые пояса, позволяет решать 90% задач в первые 24 часа.
-                </p>
+    <div class="container mx-auto px-4">
+        <section id="introduction" class="py-2 font-medium">
+            <h2 class="text-3xl font-semibold mb-4">Мы знаем что вам <span class="text-red-600">нужно</span>!</h2>
+            <p class="text-lg text-gray-800 leading-relaxed mb-2">
+                Существуя уже более 15 лет на рынке, наша компания оперативно помогает бухгалтерам со всей России. Только за 2024 год наши специалисты решили более 500 тысяч
+                задач, среди которых:
+            </p>
+            <ul class="list-disc marker:text-red-600 list-inside pl-5 text-gray-800 font-bold leading-relaxed mb-7 border-2 border-red-600 rounded-xl md:w-fit p-6">
+                <li>Настройка и доработка 1С:Бухгалтерии для госучреждений и других конфигураций</li>
+                <li>Автоматизация рутинных процессов и отчетности</li>
+                <li>Интеграция 1С с другими системами ведения бух. учета</li>
+                <li>Исправление учетных ошибок и аудит баз данных</li>
+            </ul>
+            <p class="text-lg text-gray-800 leading-relaxed mb-2">
+                Именно неоценимый вклад в каждого клиента позволил нам закрепиться на 1 месте среди обслуживающий госучреждения компаний,
+                а наличие 6 филиалов, охватывающих все часовые пояса, позволяет решать <span class="text-red-600 font-bold">90</span><span class="text-red-600 font-bold">%</span> задач в первые 24 часа.
+            </p>
+        </section>
+        <section id="configurations" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 w-full max-w-7xl mx-auto py-8 gap-4 md:gap-8 font-medium justify-items-center">
+            <div class="config-item group" id="bgu">
+                <div class="config-img-box">
+                    <img src="images/logoBGU.png" alt="1С:Бухгалтерия государственного учреждения" width="100" height="100">
+                </div>
+                <p class="config-text">1С:Бухгалтерия государственного учреждения</p>
+            </div>
+            <div class="config-item group" id="zkgu">
+                <div class="config-img-box">
+                    <img src="images/logoZKGU.png" alt="1С:Зарплата и кадры государственного учреждения" width="100" height="100">
+                </div>
+                <p class="config-text">1С:Зарплата и кадры государственного учреждения</p>
+            </div>
+            <div class="config-item group" id="rep">
+                <div class="config-img-box">
+                    <img src="images/logoReports.png" alt="1С:Отчетность" width="100" height="100">
+                </div>
+                <p class="config-text">1С:Отчетность</p>
+            </div>
+            <div class="config-item group" id="med">
+                <div class="config-img-box">
+                    <img src="images/logoMedicine.png" alt="1С:Медицина" width="100" height="100">
+                </div>
+                <p class="config-text">1С:Медицина</p>
+            </div>
+            <div class="config-item group" id="kamin">
+                <div class="config-img-box">
+                    <img src="images/logoKAMIN.png" alt="1С-КАМИН: Зарплата для бюджетных учреждений" width="100" height="100">
+                </div>
+                <p class="config-text">1С-КАМИН: Зарплата для бюджетных учреждений</p>
             </div>
         </section>
-        <section id="configurations">
-            <div class="config-item" id="bgu">
-                <img src="images/logoBGU.png" alt="1С:Бухгалтерия государственного учреждения" length="120" width="120">
-                <p>1С:Бухгалтерия государственного учреждения</p>
-            </div>
-            <div class="config-item" id="zkgu">
-                <img src="images/logoZKGU.png" alt="1С:Зарплата и кадры государственного учреждения" length="120" width="120">
-                <p>1С:Зарплата и кадры государственного учреждения</p>
-            </div>
-            <div class="config-item" id="zkgu">
-                <img src="images/logoReports.png" alt="1С:Отчетность" length="120" width="120">
-                <p>1С:Отчетность</p>
-            </div>
-            <div class="config-item" id="zkgu">
-                <img src="images/logoMedicine.png" alt="1С:Медицина" length="120" width="120">
-                <p>1С:Медицина</p>
-            </div>
-            <div class="config-item" id="zkgu">
-                <img src="images/logoKAMIN.png" alt="1С-КАМИН: Зарплата для бюджетных учреждений" length="120" width="120">
-                <p>1С-КАМИН: Зарплата для бюджетных учреждений</p>
+        <section id="audience-switch" class="flex justify-center w-full overflow-hidden relative">
+            <div class="flex items-center gap-2 border-2 border-gray-200 rounded-full mb-16">
+                <button id="btn-accountant" class="switch-btn">Я бухгалтер</button>
+                <div class="w-px h-8 bg-gray-200"></div>
+                <button id="btn-candidate" class="switch-btn">Я соискатель</button>
             </div>
         </section>
-        <section id="btnSwitch">
-            <div>
-                <button id="btnAccountant">Для клиентов</button>
-                <button id="btnCandidate">Для соискателей</button>
-            </div>
-        </section>
-        <section id="additiveInfo">
-            <div id="accountantInfo">
-                <p>Доверяя нам свой учет вы получаете:</p>
-                <ul class="accountantList">
-                    <li>Идеальный учет: сопровождаем вас от внедрения и аудита до сдачи корректной отчетности</li>
-                    <li>Комфортную работу с 1С: используете наши доработки, заменяющие часы рутинной работы</li>
-                    <li>Оперативную помощь: наши квалифицированные специалисты ответят на любой ваш вопрос и решат любую задачу, даже если она кажется нерешаемой</li>
-                    <li>Четкое понимание особенностей ведения учета: разделение зон ответственности позволяют каждому сотруднику оказывать вам глубокую экспертную помощь по своему направлению</li>
-                </ul>
-                <p>Основываясь на безлимитном формате обслуживания, мы решаем неограниченное количество задач для вас даже после рабочего дня и в выходные. </p>
+        <section id="additive-info" class="font-medium text-gray-800 leading-relaxed w-full lg:ml-16 lg:w-1/2 pb-12">
+                <div id="accountant-info" class="hidden">
+                    <button id="btn-back-accountant" class="info-btn-back mb-4"><img src="images/backButton.png" alt="" width="15" height="15" /></button>
+                    <div>
+                        <p class="text-3xl mb-2">Доверяя нам вы получаете:</p>
+                        <ul class="list-disc marker:text-red-600 list-inside pl-5 text-gray-800 font-bold leading-relaxed mb-2 border-2 border-red-600 border-l-0 border-r-0  rounded-xl p-6">
+                            <li><span class="text-red-600">Идеальный учет:</span> сопровождаем вас от внедрения и аудита до сдачи корректной отчетности</li>
+                            <li><span class="text-red-600">Комфортную работу с 1С:</span> используете наши доработки, заменяющие часы рутинной работы</li>
+                            <li><span class="text-red-600">Оперативную помощь:</span> наши квалифицированные специалисты ответят на любой ваш вопрос и решат любую задачу, даже если она кажется нерешаемой</li>
+                            <li><span class="text-red-600">Четкое понимание особенностей ведения учета:</span> разделение зон ответственности позволяют каждому сотруднику оказывать вам глубокую экспертную помощь по своему направлению</li>
+                        </ul>
+                    <p class="text-lg mb-2">Основываясь на безлимитном формате обслуживания, мы решаем неограниченное количество задач для вас даже после рабочего дня и в выходные.</p>
+                    </div>
+                    <div class="flex justify-end">
+                        <button id="ref-accountant" class="p-3 border-2 border-gray-200 rounded-full duration-300 hover:bg-red-600 hover:text-white">Решим 3 задачи бесплатно</button>
+                    </div>
+                </div>
+            <div id="candidate-info" class="hidden">
+                <button id="btn-back-candidate" class="info-btn-back mb-4"><img src="images/backButton.png" alt="" width="15" height="15" /></button>
+                <div>
+                    <p class="text-lg mb-2">Компания "Апогей" набирает целеустремленных людей, нацеленных на личностное развитие и развитие компании.</p>
+                    <p class="text-3xl mb-2">Мы предлагаем:</p>
+                    <ul class="list-disc marker:text-red-600 list-inside pl-5 text-gray-800 font-bold leading-relaxed mb-2 border-2 border-red-600 border-l-0 border-r-0  rounded-xl p-6">
+                        <li>Достойная, четко регламентированная оплата труда</li>
+                        <li>Прозрачный карьерный рост</li>
+                        <li>Полное обучение с нуля и закрепленного за вами наставника</li>
+                        <li>Четкая конструктивная обратная связь по вашей работе</li>
+                        <li>Комфортные условия работы</li>
+                        <li>Отзывчивый коллектив, состоящих в том числе из студентов лучших университетов города и специалистов, взрощенных с нуля.</li>
+                    </ul>
+                </div>
+                <div class="flex justify-end">
+                    <button id="ref-candidate" class="p-3 border-2 border-gray-200 rounded-full duration-300 hover:bg-red-600 hover:text-white">Мне интересно</button>
+                </div>
             </div>
         </section>
     </div>
 </main>
-
-<footer>
-    <!-- копирайт -->
-</footer>

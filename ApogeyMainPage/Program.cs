@@ -21,6 +21,8 @@ namespace ApogeyMainPage
 
             app.UseHttpsRedirection();
 
+            app.UseStaticFiles();
+
             app.UseRouting();
 
             app.UseAuthorization();
