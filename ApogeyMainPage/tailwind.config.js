@@ -4,6 +4,9 @@ module.exports = {
         './Views/**/*.cshtml',  // Äëÿ MVC
         './Areas/**/*.cshtml'
     ],
+    safelist: [
+        'active-btn'
+    ],
     theme: { extend: {} },
     plugins: [],
 }
