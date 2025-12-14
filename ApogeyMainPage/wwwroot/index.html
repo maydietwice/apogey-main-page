@@ -1,9 +1,61 @@
-﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Апогей, 1С решения";
-}
 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/images/favicon.png" />
+    <title>&#x410;&#x43F;&#x43E;&#x433;&#x435;&#x439;, 1&#x421; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x44F;</title>
+
+    <link rel="stylesheet" href="css/tailwind-output.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="ApogeyMainPage.styles.css" />
+</head>
+<body class="flex flex-col min-h-screen text-black bg-white">
+
+    <header b-o2t30hooik>
+        <nav b-o2t30hooik class="bg-white border-b border-gray-200 shadow-sm mb-6">
+            <div b-o2t30hooik class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div b-o2t30hooik class="flex justify-between items-center h-16">
+
+                    <div b-o2t30hooik class="flex-shrink-0">
+                        <a class="flex items-center" href="/">
+                            <img b-o2t30hooik src="images/logoMainNoBG.png" alt="Логотип Апогей" width="150" height="52" class="block" />
+                        </a>
+                    </div>
+
+                    <div b-o2t30hooik class="-mr-2 flex items-center sm:hidden">
+                        <button b-o2t30hooik type="button" id="mobile-menu-btn" class="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-red-600 focus:outline-none transition duration-150 ease-in-out">
+                            <svg b-o2t30hooik class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                <path b-o2t30hooik stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div b-o2t30hooik class="hidden sm:flex sm:ml-6">
+                        <div b-o2t30hooik class="flex space-x-4">
+                            <a class="text-black hover:text-red-600 px-3 py-2 rounded-md text-base font-medium font-bold transition-colors duration-200" href="">
+                                Филиалы
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div b-o2t30hooik class="hidden sm:hidden" id="mobile-menu">
+                <div b-o2t30hooik class="px-2 pt-2 pb-3 space-y-1 border-t border-gray-100">
+                    <a class="block text-black hover:text-red-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium" href="">
+                        Филиалы
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div b-o2t30hooik class="container mx-auto px-4 sm:px-6 lg:px-8 flex-grow pb-8">
+        <main b-o2t30hooik role="main">
+            
 <main>
     <section id="hero" class="mb-12 md:mb-16  text-center max-w-4xl mx-auto px-4">
         <h1 class="text-3xl md:text-4xl font-bold leading-relaxed">Надежный <span class="text-red-600">лидер</span> среди обслуживающих организаций 1С для госучреждений</h1>
@@ -139,3 +191,34 @@
         </section>
     </div>
 </main>
+        </main>
+    </div>
+
+    <footer b-o2t30hooik class="border-t border-gray-200 py-6 mt-auto">
+        <div b-o2t30hooik class="container mx-auto px-4 text-center text-sm text-gray-500">
+            &copy; 2025 - Компания "Апогей" -
+            <a b-o2t30hooik href="tel:+78002008089" class="hover:text-red-600 transition-colors">8-800-200-80-89</a> |
+            <a b-o2t30hooik href="mailto:info@apogey.ru" class="hover:text-red-600 transition-colors">info@apogey.ru</a>
+        </div>
+    </footer>
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="js/site.js"></script>
+
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+            var menu = document.getElementById('mobile-menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+
+    </script>
+
+    
+
+<script src="/_framework/aspnetcore-browser-refresh.js"></script></body>
+</html>

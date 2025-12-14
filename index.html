@@ -1,9 +1,61 @@
-﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Апогей, 1С решения";
-}
 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="ApogeyMainPage/wwwroot/images/favicon.png" />
+    <link rel="apple-touch-icon" href="ApogeyMainPage/wwwroot/images/favicon.png" />
+    <title>&#x410;&#x43F;&#x43E;&#x433;&#x435;&#x439;, 1&#x421; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x44F;</title>
+
+    <link rel="stylesheet" href="ApogeyMainPage/wwwroot/css/tailwind-output.css" />
+    <link rel="stylesheet" href="ApogeyMainPage/wwwroot/css/site.css" />
+    <link rel="stylesheet" href="ApogeyMainPage/wwwroot/ApogeyMainPage.styles.css" />
+</head>
+<body class="flex flex-col min-h-screen text-black bg-white">
+
+    <header b-o2t30hooik>
+        <nav b-o2t30hooik class="bg-white border-b border-gray-200 shadow-sm mb-6">
+            <div b-o2t30hooik class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div b-o2t30hooik class="flex justify-between items-center h-16">
+
+                    <div b-o2t30hooik class="flex-shrink-0">
+                        <a class="flex items-center" href="">
+                            <img b-o2t30hooik src="ApogeyMainPage/wwwroot/images/logoMainNoBG.png" alt="Логотип Апогей" width="150" height="52" class="block" />
+                        </a>
+                    </div>
+
+                    <div b-o2t30hooik class="-mr-2 flex items-center sm:hidden">
+                        <button b-o2t30hooik type="button" id="mobile-menu-btn" class="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-red-600 focus:outline-none transition duration-150 ease-in-out">
+                            <svg b-o2t30hooik class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                <path b-o2t30hooik stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div b-o2t30hooik class="hidden sm:flex sm:ml-6">
+                        <div b-o2t30hooik class="flex space-x-4">
+                            <a class="text-black hover:text-red-600 px-3 py-2 rounded-md text-base font-medium font-bold transition-colors duration-200" href="">
+                                Филиалы
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div b-o2t30hooik class="hidden sm:hidden" id="mobile-menu">
+                <div b-o2t30hooik class="px-2 pt-2 pb-3 space-y-1 border-t border-gray-100">
+                    <a class="block text-black hover:text-red-600 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium" href="">
+                        Филиалы
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div b-o2t30hooik class="container mx-auto px-4 sm:px-6 lg:px-8 flex-grow pb-8">
+        <main b-o2t30hooik role="main">
+            
 <main>
     <section id="hero" class="mb-12 md:mb-16  text-center max-w-4xl mx-auto px-4">
         <h1 class="text-3xl md:text-4xl font-bold leading-relaxed">Надежный <span class="text-red-600">лидер</span> среди обслуживающих организаций 1С для госучреждений</h1>
@@ -31,31 +83,31 @@
                 <section id="configurations" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 w-full max-w-7xl mx-auto py-8 gap-4 md:gap-8 font-medium justify-items-center">
                     <div class="config-item group" id="bgu">
                         <div class="config-img-box">
-                            <img src="images/logoBGU.png" alt="1С:Бухгалтерия государственного учреждения" width="100" height="100">
+                            <img src="ApogeyMainPage/wwwroot/images/logoBGU.png" alt="1С:Бухгалтерия государственного учреждения" width="100" height="100">
                         </div>
                         <p class="config-text">1С:Бухгалтерия государственного учреждения</p>
                     </div>
                     <div class="config-item group" id="zkgu">
                         <div class="config-img-box">
-                            <img src="images/logoZKGU.png" alt="1С:Зарплата и кадры государственного учреждения" width="100" height="100">
+                            <img src="ApogeyMainPage/wwwroot/images/logoZKGU.png" alt="1С:Зарплата и кадры государственного учреждения" width="100" height="100">
                         </div>
                         <p class="config-text">1С:Зарплата и кадры государственного учреждения</p>
                     </div>
                     <div class="config-item group" id="rep">
                         <div class="config-img-box">
-                            <img src="images/logoReports.png" alt="1С:Отчетность" width="100" height="100">
+                            <img src="ApogeyMainPage/wwwroot/images/logoReports.png" alt="1С:Отчетность" width="100" height="100">
                         </div>
                         <p class="config-text">1С:Отчетность</p>
                     </div>
                     <div class="config-item group" id="med">
                         <div class="config-img-box">
-                            <img src="images/logoMedicine.png" alt="1С:Медицина" width="100" height="100">
+                            <img src="ApogeyMainPage/wwwroot/images/logoMedicine.png" alt="1С:Медицина" width="100" height="100">
                         </div>
                         <p class="config-text">1С:Медицина</p>
                     </div>
                     <div class="config-item group" id="kamin">
                         <div class="config-img-box">
-                            <img src="images/logoKAMIN.png" alt="1С-КАМИН: Зарплата для бюджетных учреждений" width="100" height="100">
+                            <img src="ApogeyMainPage/wwwroot/images/logoKAMIN.png" alt="1С-КАМИН: Зарплата для бюджетных учреждений" width="100" height="100">
                         </div>
                         <p class="config-text">1С-КАМИН: Зарплата для бюджетных учреждений</p>
                     </div>
@@ -71,7 +123,7 @@
         </section>
         <section id="dynamic-content" class="font-medium text-gray-800 leading-relaxed w-full max-w-5xl mx-auto pb-12">
             <div id="accountant-info" class="hidden opacity-0 transition-opacity duration-500 ease-in-out">
-                    <button id="btn-back-accountant" class="info-btn-back mb-4"><img src="images/backButton.png" alt="" width="15" height="15" /></button>
+                    <button id="btn-back-accountant" class="info-btn-back mb-4"><img src="ApogeyMainPage/wwwroot/images/backButton.png" alt="" width="15" height="15" /></button>
                     <div>
                         <p class="text-3xl mb-2">Доверяя нам вы получаете:</p>
                         <ul class="list-disc marker:text-red-600 list-inside pl-5 text-gray-800 font-bold leading-relaxed mb-2 border-2 border-red-600 border-l-0 border-r-0  rounded-xl p-6">
@@ -87,7 +139,7 @@
                     </div>
                 </div>
             <div id="candidate-info" class="hidden opacity-0 transition-opacity duration-500 ease-in-out">
-                <button id="btn-back-candidate" class="info-btn-back mb-4"><img src="images/backButton.png" alt="" width="15" height="15" /></button>
+                <button id="btn-back-candidate" class="info-btn-back mb-4"><img src="ApogeyMainPage/wwwroot/images/backButton.png" alt="" width="15" height="15" /></button>
                 <div>
                     <p class="text-lg mb-2">Компания "Апогей" набирает целеустремленных людей, нацеленных на личностное развитие и развитие компании.</p>
                     <p class="text-3xl mb-2">Мы предлагаем:</p>
@@ -107,31 +159,31 @@
             <section id="copy-configurations" class="hidden opacity-0 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 w-full max-w-7xl mx-auto py-8 gap-4 md:gap-8 font-medium justify-items-center">
                 <div class="config-item group" id="bgu">
                     <div class="config-img-box">
-                        <img src="images/logoBGU.png" alt="1С:Бухгалтерия государственного учреждения" width="100" height="100">
+                        <img src="ApogeyMainPage/wwwroot/images/logoBGU.png" alt="1С:Бухгалтерия государственного учреждения" width="100" height="100">
                     </div>
                     <p class="config-text">1С:Бухгалтерия государственного учреждения</p>
                 </div>
                 <div class="config-item group" id="zkgu">
                     <div class="config-img-box">
-                        <img src="images/logoZKGU.png" alt="1С:Зарплата и кадры государственного учреждения" width="100" height="100">
+                        <img src="ApogeyMainPage/wwwroot/images/logoZKGU.png" alt="1С:Зарплата и кадры государственного учреждения" width="100" height="100">
                     </div>
                     <p class="config-text">1С:Зарплата и кадры государственного учреждения</p>
                 </div>
                 <div class="config-item group" id="rep">
                     <div class="config-img-box">
-                        <img src="images/logoReports.png" alt="1С:Отчетность" width="100" height="100">
+                        <img src="ApogeyMainPage/wwwroot/images/logoReports.png" alt="1С:Отчетность" width="100" height="100">
                     </div>
                     <p class="config-text">1С:Отчетность</p>
                 </div>
                 <div class="config-item group" id="med">
                     <div class="config-img-box">
-                        <img src="images/logoMedicine.png" alt="1С:Медицина" width="100" height="100">
+                        <img src="ApogeyMainPage/wwwroot/images/logoMedicine.png" alt="1С:Медицина" width="100" height="100">
                     </div>
                     <p class="config-text">1С:Медицина</p>
                 </div>
                 <div class="config-item group" id="kamin">
                     <div class="config-img-box">
-                        <img src="images/logoKAMIN.png" alt="1С-КАМИН: Зарплата для бюджетных учреждений" width="100" height="100">
+                        <img src="ApogeyMainPage/wwwroot/images/logoKAMIN.png" alt="1С-КАМИН: Зарплата для бюджетных учреждений" width="100" height="100">
                     </div>
                     <p class="config-text">1С-КАМИН: Зарплата для бюджетных учреждений</p>
                 </div>
@@ -139,3 +191,34 @@
         </section>
     </div>
 </main>
+        </main>
+    </div>
+
+    <footer b-o2t30hooik class="border-t border-gray-200 py-6 mt-auto">
+        <div b-o2t30hooik class="container mx-auto px-4 text-center text-sm text-gray-500">
+            &copy; 2025 - Компания "Апогей" -
+            <a b-o2t30hooik href="tel:+78002008089" class="hover:text-red-600 transition-colors">8-800-200-80-89</a> |
+            <a b-o2t30hooik href="mailto:info@apogey.ru" class="hover:text-red-600 transition-colors">info@apogey.ru</a>
+        </div>
+    </footer>
+
+    <script src="ApogeyMainPage/wwwroot/lib/jquery/dist/jquery.min.js"></script>
+    <script src="ApogeyMainPage/wwwroot/js/site.js"></script>
+
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+            var menu = document.getElementById('mobile-menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+
+    </script>
+
+    
+
+<script src="/_framework/aspnetcore-browser-refresh.js"></script></body>
+</html>
