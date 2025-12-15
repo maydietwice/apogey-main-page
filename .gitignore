@@ -1,94 +1,57 @@
-# =========================
-# Visual Studio / Rider / VSCode
-# =========================
 .vs/
 .idea/
 .vscode/
 
-# User-specific files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# =========================
-# Build outputs
-# =========================
 bin/
 obj/
 out/
 publish/
 publish_output/
 
-# =========================
-# ASP.NET / .NET
-# =========================
-# Local development settings & secrets — НЕ коммитим
 appsettings.Development.json
 secrets.json
-
-# User Secrets files (if accidentally created in project)
 **/secrets.*.json
 
-# Certificates / keys
 *.pfx
 *.p12
 *.key
 *.pem
 
-# NuGet packages / artifacts
 *.nupkg
 packages/
 .nuget/
 
-# =========================
-# Node / frontend build
-# =========================
 node_modules/
-# If you build frontend assets into a specific folder, ignore build artifacts
-dist/
 build/
-wwwroot/dist/
-wwwroot/build/
 
-# NOTE: не игнорируем wwwroot/css/site.css (если ты собираешь Tailwind в него и хочешь коммитить результат).
-# Если ты планируешь НЕ коммитить собранный CSS, добавь строку: /wwwroot/css/site.css
-
-# npm debug / logs
 npm-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# =========================
-# Logs, temp, misc
-# =========================
 *.log
 logs/
 *.tmp
 *.temp
 *.cache
 
-# OS files
 Thumbs.db
 Desktop.ini
 .DS_Store
 
-# Databases / test results
 *.db
 *.sqlite
 TestResults/
 
-# IDE / env / misc
 .vagrant/
 .env
 .env.local
 .env.*.local
 
-# =========================
-# Optional: local publish output, profiler dumps, coverage
-# =========================
 coverage/
 *.lcov
 *.prof
-
-# End of file
